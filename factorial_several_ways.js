@@ -10,7 +10,7 @@ const factorial = (n) => {
 console.log(factorial(3))
 
 
-//iterative process
+//iterative process with recursion
 const factorial_i = (n) =>{
     const iter = (counter, accumulator) =>{
         if (counter === 1){
@@ -24,7 +24,7 @@ const factorial_i = (n) =>{
 console.log(factorial_i(4))
 
 
-//with variable
+//iterative process without recursion (with variable)
 function factorial_v(n){
     let counter = 1;
     let result = 1;
