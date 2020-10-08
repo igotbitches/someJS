@@ -1,7 +1,7 @@
 let item = {
     name: 'Intel core i7',
     price: '100$',
-    discount: '1%' };
+    discount: '15%' };
 
 function NewDict(item){
 
